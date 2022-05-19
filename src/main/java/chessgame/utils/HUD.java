@@ -13,7 +13,6 @@ import chessgame.entities.IEnemies;
 /**
  * A visual representation of the players stats
  * and other attributes of the game
- * @author Åsmund, Mikal
  *
  */
 public class HUD {

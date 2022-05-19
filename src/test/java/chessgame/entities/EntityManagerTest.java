@@ -14,7 +14,6 @@ import chessgame.world.PhysicsWorld;
 
 /**
  * Test for entityManageren, teste at funksjonaliteten fungerer som den skal
- * @author thorg
  *
  */
 class EntityManagerTest {

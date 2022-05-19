@@ -21,7 +21,6 @@ import chessgame.utils.EntityManager;
 
 /**
  * this is the packet class, which keeps controll of the data that should be sent
- * @author thorg
  *
  */
 public class Packet {

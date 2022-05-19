@@ -7,14 +7,12 @@ import com.badlogic.gdx.physics.box2d.Body;
 
 /**
  * Interface for all entities in the game, such as player, items, enemies and bosses
- * @author Mikal, Throgal
  *
  */
 public interface IEntities {
 	/**
 	 * Creates the entity body
-	 * @author Thorgal, Mikal
-	 * 
+	 *
 	 * 
 	 */
 	

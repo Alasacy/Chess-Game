@@ -4,7 +4,6 @@ import com.badlogic.gdx.math.Vector2;
 
 /**
  * This class decides what data ,considering each pawn entity, should be sent.
- * @author thorg
  *
  */
 public class PawnData{

@@ -53,7 +53,6 @@ public class EntityManager {
     /**
      * Adds the enemy to the enemyList.
      * @param enemy
-     * @author mikal, thorgal
      */
     public void addEntity(IEntities entity) {
     	if(!entityList.contains(entity))
@@ -63,7 +62,6 @@ public class EntityManager {
     /**
      * updates the enemyAddList and enemyRemoveList to add and remove the enemies from the world
      * 
-     * @author mikal, thorgal
      */
     public void updateLists() {
     	updateLists(entityRemoveList);

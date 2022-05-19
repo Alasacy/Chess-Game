@@ -57,7 +57,6 @@ public class PhysicsWorld {
 	/**
 	 * Creates bodies for each "Object" in the TileMaps object-layer.
 	 * @param tiledMap
-	 * @author Mikal, Thorgal
 	 */
 	public void tileMapToBody(TiledMap tiledMap) {
 		MapObjects objects = tiledMap.getLayers().get("Ground").getObjects();
@@ -89,7 +88,6 @@ public class PhysicsWorld {
 	 * Creates a shape based on the rectangle given as input
 	 * @param rectangle
 	 * @return shape
-	 * @author Mikal, Thorgal
 	 */
 	public static Shape getShapeFromRectangle(Rectangle rectangle){
 	    PolygonShape polygonShape = new PolygonShape();
@@ -99,7 +97,6 @@ public class PhysicsWorld {
 	/**
 	 * Makes the Box2d world move forwards in time
 	 * @param delta should always be deltatime
-	 * @author Thorgal, Mikal
 	 */
 	public void logicStep(float delta) {
 		world.step(delta, 3, 3);
